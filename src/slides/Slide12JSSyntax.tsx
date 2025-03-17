@@ -4,7 +4,7 @@ import SlideLayout from '@/components/SlideLayout';
 import SlideTitle from '@/components/SlideTitle';
 import CodeBlock from '@/components/CodeBlock';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Variable, CornerDownRight, Repeat, Function } from 'lucide-react';
+import { Variable, CornerDownRight, Repeat, Code2 } from 'lucide-react';
 import { jsSyntaxExamples } from './SlideData';
 
 const Slide12JSSyntax = () => {
@@ -30,7 +30,7 @@ const Slide12JSSyntax = () => {
               <Repeat className="h-4 w-4 mr-2" /> Schleifen
             </TabsTrigger>
             <TabsTrigger value="functions" className="flex items-center">
-              <Function className="h-4 w-4 mr-2" /> Funktionen
+              <Code2 className="h-4 w-4 mr-2" /> Funktionen
             </TabsTrigger>
           </TabsList>
           

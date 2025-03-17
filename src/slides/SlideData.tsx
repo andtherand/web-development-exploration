@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { 
   Globe, 
@@ -16,7 +15,7 @@ import {
   Variable,
   CornerDownRight,
   Repeat,
-  Function
+  Code2
 } from 'lucide-react';
 import { TimelineItem } from '@/components/Timeline';
 import { Feature } from '@/components/FeatureGrid';
