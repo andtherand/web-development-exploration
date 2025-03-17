@@ -5,7 +5,7 @@ import SlideTitle from '@/components/SlideTitle';
 import CodeBlock from '@/components/CodeBlock';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Variable, CornerDownRight, Repeat, Code2 } from 'lucide-react';
-import { jsSyntaxExamples } from './SlideData';
+import { jsSyntaxExamples } from '@/data/jsSyntax';
 
 const Slide12JSSyntax = () => {
   return (

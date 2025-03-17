@@ -4,7 +4,7 @@ import SlideLayout from '@/components/SlideLayout';
 import SlideTitle from '@/components/SlideTitle';
 import CodeBlock from '@/components/CodeBlock';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { cssExamples } from './SlideData';
+import { cssExamples } from '@/data/cssData';
 
 const Slide6CSSExamples = () => {
   return (

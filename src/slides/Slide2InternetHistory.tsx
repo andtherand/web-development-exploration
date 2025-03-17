@@ -3,7 +3,7 @@ import React from 'react';
 import SlideLayout from '@/components/SlideLayout';
 import SlideTitle from '@/components/SlideTitle';
 import Timeline from '@/components/Timeline';
-import { internetHistoryItems } from './SlideData';
+import { internetHistoryItems } from '@/data/internetHistory';
 
 const Slide2InternetHistory = () => {
   return (

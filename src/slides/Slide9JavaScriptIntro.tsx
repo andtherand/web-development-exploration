@@ -3,7 +3,7 @@ import React from 'react';
 import SlideLayout from '@/components/SlideLayout';
 import SlideTitle from '@/components/SlideTitle';
 import FeatureGrid from '@/components/FeatureGrid';
-import { jsFeatures } from './SlideData';
+import { jsFeatures } from '@/data/javascriptData';
 
 const Slide9JavaScriptIntro = () => {
   return (

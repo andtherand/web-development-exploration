@@ -3,7 +3,7 @@ import React from 'react';
 import SlideLayout from '@/components/SlideLayout';
 import SlideTitle from '@/components/SlideTitle';
 import FrameworkShowcase from '@/components/FrameworkShowcase';
-import { cssFrameworks } from './SlideData';
+import { cssFrameworks } from '@/data/cssData';
 
 const Slide8CSSFrameworks = () => {
   return (
