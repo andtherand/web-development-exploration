@@ -8,8 +8,8 @@ const Slide1Intro = () => {
   return (
     <SlideLayout>
       <SlideTitle 
-        tag="Web Development"
-        subtitle="Understanding the Evolution, Technologies, and Building Blocks of the Modern Web"
+        tag="Web-Entwicklung"
+        subtitle="Entwicklung, Technologien und Bausteine des modernen Webs verstehen"
       >
         Die Welt der Webentwicklung
       </SlideTitle>

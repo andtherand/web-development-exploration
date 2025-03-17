@@ -22,7 +22,7 @@ const Slide10ClientServer = () => {
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
                 <Laptop className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-2xl font-semibold">Client-Side JavaScript</h3>
+              <h3 className="text-2xl font-semibold">Client-seitiges JavaScript</h3>
             </div>
             
             <ul className="space-y-3 text-muted-foreground">
@@ -54,7 +54,7 @@ const Slide10ClientServer = () => {
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
                 <Server className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-2xl font-semibold">Server-Side JavaScript</h3>
+              <h3 className="text-2xl font-semibold">Server-seitiges JavaScript</h3>
             </div>
             
             <ul className="space-y-3 text-muted-foreground">
@@ -96,11 +96,11 @@ const Slide10ClientServer = () => {
             <div className="flex flex-col items-center mx-4">
               <div className="flex items-center mb-2">
                 <ArrowUpFromLine className="h-5 w-5 text-muted-foreground" />
-                <span className="text-xs ml-1 text-muted-foreground">Request</span>
+                <span className="text-xs ml-1 text-muted-foreground">Anfrage</span>
               </div>
               <div className="flex items-center">
                 <ArrowDownToLine className="h-5 w-5 text-muted-foreground" />
-                <span className="text-xs ml-1 text-muted-foreground">Response</span>
+                <span className="text-xs ml-1 text-muted-foreground">Antwort</span>
               </div>
             </div>
             

@@ -6,28 +6,28 @@ import { Feature } from '@/components/FeatureGrid';
 // HTML Features
 export const htmlFeatures: Feature[] = [
   {
-    title: "Structure",
-    description: "HTML defines the fundamental structure and organization of web content through elements and tags.",
+    title: "Struktur",
+    description: "HTML definiert die grundlegende Struktur und Organisation von Webinhalten durch Elemente und Tags.",
     icon: <Layout size={24} />
   },
   {
-    title: "Semantics",
-    description: "Semantic HTML elements provide meaning to content, improving accessibility and SEO.",
+    title: "Semantik",
+    description: "Semantische HTML-Elemente verleihen Inhalten Bedeutung und verbessern Zugänglichkeit und SEO.",
     icon: <FileCode size={24} />
   },
   {
     title: "Links",
-    description: "Hyperlinks connect pages and resources, forming the foundation of web navigation.",
+    description: "Hyperlinks verbinden Seiten und Ressourcen und bilden die Grundlage der Webnavigation.",
     icon: <Globe size={24} />
   },
   {
-    title: "Forms",
-    description: "HTML forms enable user input and data collection for interactive web applications.",
+    title: "Formulare",
+    description: "HTML-Formulare ermöglichen Benutzereingaben und Datenerfassung für interaktive Webanwendungen.",
     icon: <Code size={24} />
   },
   {
-    title: "Media",
-    description: "Support for images, video, audio, and other multimedia enriches web content.",
+    title: "Medien",
+    description: "Unterstützung für Bilder, Video, Audio und andere Multimedia-Inhalte bereichert Webinhalte.",
     icon: <Monitor size={24} />
   }
 ];
@@ -35,92 +35,92 @@ export const htmlFeatures: Feature[] = [
 // HTML Code Examples
 export const htmlExamples = {
   basicStructure: `<!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First HTML Document</title>
+  <title>Mein erstes HTML-Dokument</title>
 </head>
 <body>
   <header>
-    <h1>Welcome to My Website</h1>
+    <h1>Willkommen auf meiner Webseite</h1>
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home">Startseite</a></li>
+        <li><a href="#about">Über uns</a></li>
+        <li><a href="#contact">Kontakt</a></li>
       </ul>
     </nav>
   </header>
   
   <main>
     <section id="home">
-      <h2>Home</h2>
-      <p>This is the main content of my website.</p>
+      <h2>Startseite</h2>
+      <p>Dies ist der Hauptinhalt meiner Webseite.</p>
     </section>
   </main>
   
   <footer>
-    <p>&copy; 2023 My Website</p>
+    <p>&copy; 2023 Meine Webseite</p>
   </footer>
 </body>
 </html>`,
 
   semanticElements: `<article>
-  <h2>Article Title</h2>
-  <p>Article content goes here...</p>
+  <h2>Artikel-Titel</h2>
+  <p>Artikelinhalt hier...</p>
   
   <section>
-    <h3>Section Heading</h3>
-    <p>This is a section within the article.</p>
+    <h3>Abschnittsüberschrift</h3>
+    <p>Dies ist ein Abschnitt innerhalb des Artikels.</p>
   </section>
 </article>
 
 <aside>
-  <h3>Related Information</h3>
-  <p>Sidebar content that relates to the main content.</p>
+  <h3>Verwandte Informationen</h3>
+  <p>Seitenleisteninhalt, der sich auf den Hauptinhalt bezieht.</p>
 </aside>
 
 <figure>
-  <img src="image.jpg" alt="Description of image">
-  <figcaption>Caption for the image</figcaption>
+  <img src="bild.jpg" alt="Beschreibung des Bildes">
+  <figcaption>Beschriftung für das Bild</figcaption>
 </figure>`,
 
-  forms: `<form action="/submit" method="post">
+  forms: `<form action="/absenden" method="post">
   <fieldset>
-    <legend>Personal Information</legend>
+    <legend>Persönliche Informationen</legend>
     
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
     
-    <label for="email">Email:</label>
+    <label for="email">E-Mail:</label>
     <input type="email" id="email" name="email" required>
     
-    <label for="password">Password:</label>
+    <label for="password">Passwort:</label>
     <input type="password" id="password" name="password" required>
   </fieldset>
   
   <fieldset>
-    <legend>Preferences</legend>
+    <legend>Präferenzen</legend>
     
     <label>
       <input type="checkbox" name="subscribe" value="yes">
-      Subscribe to newsletter
+      Newsletter abonnieren
     </label>
     
-    <p>Favorite color:</p>
+    <p>Lieblingsfarbe:</p>
     <label>
-      <input type="radio" name="color" value="red"> Red
+      <input type="radio" name="color" value="red"> Rot
     </label>
     <label>
-      <input type="radio" name="color" value="blue"> Blue
+      <input type="radio" name="color" value="blue"> Blau
     </label>
     <label>
-      <input type="radio" name="color" value="green"> Green
+      <input type="radio" name="color" value="green"> Grün
     </label>
   </fieldset>
   
-  <button type="submit">Submit</button>
-  <button type="reset">Reset</button>
+  <button type="submit">Absenden</button>
+  <button type="reset">Zurücksetzen</button>
 </form>`
 };

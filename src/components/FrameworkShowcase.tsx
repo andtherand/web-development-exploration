@@ -1,11 +1,9 @@
-
 import React from 'react';
 import { Card } from '@/components/ui/card';
 
 export interface Framework {
   name: string;
   description: string;
-  logo?: React.ReactNode;
   examples?: string[];
   codeExample?: string;
   users?: string[];
@@ -13,7 +11,7 @@ export interface Framework {
 
 interface FrameworkShowcaseProps {
   frameworks: Framework[];
-  type: 'CSS' | 'JavaScript';
+  type: "CSS" | "JavaScript";
 }
 
 const FrameworkShowcase: React.FC<FrameworkShowcaseProps> = ({ frameworks, type }) => {

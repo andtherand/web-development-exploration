@@ -7,28 +7,28 @@ import { Framework } from '@/components/FrameworkShowcase';
 // CSS Features
 export const cssFeatures: Feature[] = [
   {
-    title: "Styling",
-    description: "CSS controls the visual presentation of HTML elements through properties and values.",
+    title: "Gestaltung",
+    description: "CSS steuert die visuelle Darstellung von HTML-Elementen durch Eigenschaften und Werte.",
     icon: <Paintbrush size={24} />
   },
   {
     title: "Layout",
-    description: "CSS provides tools for complex layouts including Flexbox and Grid systems.",
+    description: "CSS bietet Werkzeuge für komplexe Layouts, einschließlich Flexbox und Grid-Systeme.",
     icon: <Layout size={24} />
   },
   {
-    title: "Responsive Design",
-    description: "Media queries and flexible units allow content to adapt to different screen sizes.",
+    title: "Responsives Design",
+    description: "Media Queries und flexible Einheiten ermöglichen die Anpassung von Inhalten an verschiedene Bildschirmgrößen.",
     icon: <Smartphone size={24} />
   },
   {
-    title: "Animations",
-    description: "CSS transitions and animations create dynamic visual effects without JavaScript.",
+    title: "Animationen",
+    description: "CSS-Übergänge und Animationen erzeugen dynamische visuelle Effekte ohne JavaScript.",
     icon: <Repeat size={24} />
   },
   {
-    title: "Modularity",
-    description: "CSS methodologies like BEM and CSS-in-JS allow for scalable, maintainable stylesheets.",
+    title: "Modularität",
+    description: "CSS-Methodologien wie BEM und CSS-in-JS ermöglichen skalierbare, wartbare Stylesheets.",
     icon: <Code size={24} />
   }
 ];
@@ -37,69 +37,69 @@ export const cssFeatures: Feature[] = [
 export const cssFrameworks: Framework[] = [
   {
     name: "Bootstrap",
-    description: "Popular responsive framework with pre-built components and a grid system.",
-    examples: ["Grid system", "Ready-to-use components", "Utility classes"],
-    codeExample: '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">\n\n<div class="container">\n  <div class="row">\n    <div class="col-md-6">Column 1</div>\n    <div class="col-md-6">Column 2</div>\n  </div>\n</div>'
+    description: "Beliebtes responsives Framework mit vorgefertigten Komponenten und einem Grid-System.",
+    examples: ["Grid-System", "Einsatzbereite Komponenten", "Utility-Klassen"],
+    codeExample: '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">\n\n<div class="container">\n  <div class="row">\n    <div class="col-md-6">Spalte 1</div>\n    <div class="col-md-6">Spalte 2</div>\n  </div>\n</div>'
   },
   {
     name: "Tailwind CSS",
-    description: "Utility-first CSS framework for rapidly building custom designs.",
-    examples: ["Utility classes", "JIT compiler", "Design system"],
-    codeExample: '<div class="flex items-center justify-between p-4 bg-white shadow rounded-lg">\n  <h3 class="text-lg font-medium text-gray-900">Card Title</h3>\n  <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">\n    Action\n  </button>\n</div>'
+    description: "Utility-First CSS-Framework zum schnellen Erstellen benutzerdefinierter Designs.",
+    examples: ["Utility-Klassen", "JIT-Compiler", "Design-System"],
+    codeExample: '<div class="flex items-center justify-between p-4 bg-white shadow rounded-lg">\n  <h3 class="text-lg font-medium text-gray-900">Karten-Titel</h3>\n  <button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">\n    Aktion\n  </button>\n</div>'
   },
   {
     name: "Bulma",
-    description: "Modern CSS framework based on Flexbox with a clean, readable syntax.",
-    examples: ["Flexbox-based", "Modular architecture", "No JavaScript"],
-    codeExample: '<div class="columns">\n  <div class="column is-half">\n    <div class="card">\n      <div class="card-content">\n        <p class="title">Card title</p>\n        <p class="subtitle">Card subtitle</p>\n      </div>\n    </div>\n  </div>\n</div>'
+    description: "Modernes CSS-Framework basierend auf Flexbox mit einer sauberen, lesbaren Syntax.",
+    examples: ["Flexbox-basiert", "Modulare Architektur", "Kein JavaScript"],
+    codeExample: '<div class="columns">\n  <div class="column is-half">\n    <div class="card">\n      <div class="card-content">\n        <p class="title">Karten-Titel</p>\n        <p class="subtitle">Karten-Untertitel</p>\n      </div>\n    </div>\n  </div>\n</div>'
   },
   {
     name: "Foundation",
-    description: "Advanced responsive front-end framework with accessibility features.",
-    examples: ["Responsive grid", "Accessibility", "Enterprise focus"],
-    codeExample: '<div class="grid-container">\n  <div class="grid-x grid-margin-x">\n    <div class="cell medium-6">Column 1</div>\n    <div class="cell medium-6">Column 2</div>\n  </div>\n</div>'
+    description: "Fortschrittliches responsives Frontend-Framework mit Zugänglichkeitsfunktionen.",
+    examples: ["Responsives Grid", "Barrierefreiheit", "Unternehmensfokus"],
+    codeExample: '<div class="grid-container">\n  <div class="grid-x grid-margin-x">\n    <div class="cell medium-6">Spalte 1</div>\n    <div class="cell medium-6">Spalte 2</div>\n  </div>\n</div>'
   },
   {
     name: "SASS/SCSS",
-    description: "CSS preprocessor that adds variables, nesting, mixins, and more to CSS.",
-    examples: ["Variables", "Nesting", "Mixins", "Functions"],
+    description: "CSS-Präprozessor, der Variablen, Verschachtelung, Mixins und mehr zu CSS hinzufügt.",
+    examples: ["Variablen", "Verschachtelung", "Mixins", "Funktionen"],
     codeExample: '$primary-color: #4A90E2;\n\n.button {\n  background-color: $primary-color;\n  &:hover {\n    background-color: darken($primary-color, 10%);\n  }\n  &.large {\n    padding: 1rem 2rem;\n  }\n}'
   }
 ];
 
 // CSS Code Examples
 export const cssExamples = {
-  basicStyling: `/* Basic CSS syntax */
+  basicStyling: `/* Grundlegende CSS-Syntax */
 selector {
   property: value;
 }
 
-/* Selectors */
+/* Selektoren */
 h1 {
   color: blue;
   font-size: 24px;
   text-align: center;
 }
 
-/* Class selectors */
+/* Klassen-Selektoren */
 .highlight {
   background-color: yellow;
   padding: 10px;
 }
 
-/* ID selectors */
+/* ID-Selektoren */
 #header {
   background-color: black;
   color: white;
 }
 
-/* Combining selectors */
+/* Kombinieren von Selektoren */
 nav ul li a {
   text-decoration: none;
   color: #333;
 }
 
-/* Pseudo-classes */
+/* Pseudo-Klassen */
 a:hover {
   color: red;
 }
@@ -108,15 +108,15 @@ button:focus {
   outline: 2px solid blue;
 }`,
 
-  responsiveDesign: `/* Media queries for responsive design */
-/* Base styles for all devices */
+  responsiveDesign: `/* Media Queries für responsives Design */
+/* Grundstile für alle Geräte */
 .container {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Styles for tablets and below */
+/* Stile für Tablets und kleiner */
 @media (max-width: 768px) {
   .container {
     padding: 15px;
@@ -127,7 +127,7 @@ button:focus {
   }
 }
 
-/* Styles for mobile phones */
+/* Stile für Mobiltelefone */
 @media (max-width: 480px) {
   .container {
     padding: 10px;
@@ -138,7 +138,7 @@ button:focus {
   }
 }
 
-/* Using flexible units */
+/* Verwendung flexibler Einheiten */
 .flexible-layout {
   display: flex;
   flex-wrap: wrap;
@@ -149,7 +149,7 @@ button:focus {
   min-width: 300px;
 }
 
-/* Responsive images */
+/* Responsive Bilder */
 img {
   max-width: 100%;
   height: auto;
@@ -176,11 +176,11 @@ img {
 }
 
 .grid-item {
-  /* Grid items can span multiple columns/rows */
+  /* Grid-Elemente können mehrere Spalten/Zeilen umfassen */
   grid-column: span 2;
 }
 
-/* Modern layout with CSS variables */
+/* Modernes Layout mit CSS-Variablen */
 :root {
   --spacing-unit: 8px;
   --primary-color: #0077ff;

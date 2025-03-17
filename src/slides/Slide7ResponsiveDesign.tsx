@@ -55,7 +55,7 @@ const Slide7ResponsiveDesign = () => {
             <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-2">
               <Smartphone className="h-8 w-8 text-primary" />
             </div>
-            <h4 className="font-medium">Mobile</h4>
+            <h4 className="font-medium">Mobil</h4>
             <p className="text-xs text-muted-foreground">320px - 480px</p>
           </div>
           

@@ -21,7 +21,7 @@ const Slide11JSFrameworks = () => {
         </p>
       </div>
       
-      <FrameworkShowcase frameworks={jsFrameworks} type="JS" />
+      <FrameworkShowcase frameworks={jsFrameworks} type="JavaScript" />
     </SlideLayout>
   );
 };

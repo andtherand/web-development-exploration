@@ -1,107 +1,107 @@
 
 // JavaScript Syntax Examples
 export const jsSyntaxExamples = {
-  variables: `// Variable declarations
-let name = "John"; // Can be reassigned
-const age = 30;    // Cannot be reassigned
-var legacy = true; // Old way, function scoped
+  variables: `// Variablendeklarationen
+let name = "John"; // Kann neu zugewiesen werden
+const alter = 30;   // Kann nicht neu zugewiesen werden
+var legacy = true; // Alte Methode, funktionsbereich
 
-// Data types
-let string = "Hello world";
-let number = 42;
+// Datentypen
+let zeichenkette = "Hallo Welt";
+let zahl = 42;
 let boolean = true;
 let array = [1, 2, 3];
-let object = { key: "value" };
-let nullValue = null;
-let undefinedValue;
+let objekt = { schlüssel: "Wert" };
+let nullWert = null;
+let undefinedWert;
 `,
 
-  conditions: `// If statements
-let age = 18;
+  conditions: `// If-Anweisungen
+let alter = 18;
 
-if (age >= 18) {
-  console.log("You are an adult");
-} else if (age >= 13) {
-  console.log("You are a teenager");
+if (alter >= 18) {
+  console.log("Du bist erwachsen");
+} else if (alter >= 13) {
+  console.log("Du bist ein Teenager");
 } else {
-  console.log("You are a child");
+  console.log("Du bist ein Kind");
 }
 
-// Ternary operator
-let message = age >= 18 ? "You can vote" : "You cannot vote";
+// Ternärer Operator
+let nachricht = alter >= 18 ? "Du darfst wählen" : "Du darfst nicht wählen";
 
-// Switch statement
-let day = "Monday";
-switch (day) {
-  case "Monday":
-    console.log("Start of work week");
+// Switch-Anweisung
+let tag = "Montag";
+switch (tag) {
+  case "Montag":
+    console.log("Beginn der Arbeitswoche");
     break;
-  case "Friday":
-    console.log("End of work week");
+  case "Freitag":
+    console.log("Ende der Arbeitswoche");
     break;
   default:
-    console.log("Another day");
+    console.log("Ein anderer Tag");
 }
 `,
 
-  loops: `// For loop
+  loops: `// For-Schleife
 for (let i = 0; i < 5; i++) {
-  console.log(\`Iteration \${i}\`);
+  console.log(\`Durchlauf \${i}\`);
 }
 
-// While loop
-let count = 0;
-while (count < 5) {
-  console.log(\`Count: \${count}\`);
-  count++;
+// While-Schleife
+let zähler = 0;
+while (zähler < 5) {
+  console.log(\`Zähler: \${zähler}\`);
+  zähler++;
 }
 
-// For...of loop (arrays)
-const fruits = ["Apple", "Banana", "Cherry"];
-for (const fruit of fruits) {
-  console.log(fruit);
+// For...of-Schleife (Arrays)
+const früchte = ["Apfel", "Banane", "Kirsche"];
+for (const frucht of früchte) {
+  console.log(frucht);
 }
 
-// For...in loop (objects)
-const person = { name: "Alice", age: 25 };
-for (const key in person) {
-  console.log(\`\${key}: \${person[key]}\`);
+// For...in-Schleife (Objekte)
+const person = { name: "Alice", alter: 25 };
+for (const schlüssel in person) {
+  console.log(\`\${schlüssel}: \${person[schlüssel]}\`);
 }
 
-// Array methods
-fruits.forEach(fruit => console.log(fruit));
+// Array-Methoden
+früchte.forEach(frucht => console.log(frucht));
 `,
 
-  functions: `// Function declaration
-function greet(name) {
-  return \`Hello, \${name}!\`;
+  functions: `// Funktionsdeklaration
+function begrüßen(name) {
+  return \`Hallo, \${name}!\`;
 }
 
-// Function expression
-const greetExpression = function(name) {
-  return \`Hello, \${name}!\`;
+// Funktionsausdruck
+const begrüßungAusdruck = function(name) {
+  return \`Hallo, \${name}!\`;
 };
 
-// Arrow function
-const greetArrow = (name) => {
-  return \`Hello, \${name}!\`;
+// Pfeilfunktion
+const begrüßungPfeil = (name) => {
+  return \`Hallo, \${name}!\`;
 };
 
-// Arrow function (shorthand)
-const greetShort = name => \`Hello, \${name}!\`;
+// Pfeilfunktion (Kurzform)
+const begrüßungKurz = name => \`Hallo, \${name}!\`;
 
-// Default parameters
-function greetWithDefault(name = "Guest") {
-  return \`Hello, \${name}!\`;
+// Standardparameter
+function begrüßungMitStandard(name = "Gast") {
+  return \`Hallo, \${name}!\`;
 }
 
-// Rest parameters
-function sum(...numbers) {
-  return numbers.reduce((total, num) => total + num, 0);
+// Rest-Parameter
+function summe(...zahlen) {
+  return zahlen.reduce((gesamt, zahl) => gesamt + zahl, 0);
 }
 
-// Calling functions
-console.log(greet("World")); // "Hello, World!"
-console.log(sum(1, 2, 3, 4)); // 10
+// Funktionen aufrufen
+console.log(begrüßen("Welt")); // "Hallo, Welt!"
+console.log(summe(1, 2, 3, 4)); // 10
 `
 };

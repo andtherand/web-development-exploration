@@ -8,36 +8,36 @@ export const internetHistoryItems: TimelineItem[] = [
   {
     year: "1969",
     title: "ARPANET",
-    description: "The first computer network, created by the Advanced Research Projects Agency (ARPA), connected four universities."
+    description: "Das erste Computernetzwerk, erstellt von der Advanced Research Projects Agency (ARPA), verband vier Universitäten."
   },
   {
     year: "1983",
     title: "TCP/IP",
-    description: "The standardization of TCP/IP protocols allowed different computer networks to interconnect and communicate."
+    description: "Die Standardisierung der TCP/IP-Protokolle ermöglichte verschiedenen Computernetzwerken, sich zu verbinden und zu kommunizieren."
   },
   {
     year: "1989",
     title: "World Wide Web",
-    description: "Tim Berners-Lee invented the World Wide Web (WWW) at CERN, creating the foundation of the modern internet."
+    description: "Tim Berners-Lee erfand das World Wide Web (WWW) am CERN und schuf damit die Grundlage des modernen Internets."
   },
   {
     year: "1993",
     title: "NCSA Mosaic",
-    description: "The first popular graphical web browser that made the web accessible to non-technical users."
+    description: "Der erste populäre grafische Webbrowser, der das Web für nicht-technische Nutzer zugänglich machte."
   },
   {
     year: "1995-1998",
-    title: "Browser Wars",
-    description: "Competition between Netscape Navigator and Internet Explorer drove rapid browser innovation."
+    title: "Browser-Kriege",
+    description: "Wettbewerb zwischen Netscape Navigator und Internet Explorer trieb die schnelle Browser-Innovation voran."
   },
   {
     year: "2004-2009",
     title: "Web 2.0",
-    description: "The rise of social media, user-generated content, and interactive web applications."
+    description: "Der Aufstieg von sozialen Medien, nutzergenerierten Inhalten und interaktiven Webanwendungen."
   },
   {
-    year: "2010-Present",
-    title: "Mobile Web & Cloud",
-    description: "Mobile devices become the primary way to access the internet, and cloud services transform web architecture."
+    year: "2010-Heute",
+    title: "Mobiles Web & Cloud",
+    description: "Mobile Geräte werden zum primären Zugang zum Internet und Cloud-Dienste transformieren die Webarchitektur."
   }
 ];
